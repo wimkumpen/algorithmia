@@ -1,0 +1,40 @@
+{
+    "name": "wimkumpen/algorithmia-php-sdk",
+    "description": "This is a php sdk for the algorithmia.com API",
+    "keywords": ["php", "algorithmia.com", "algorithmia", "api", "ai"],
+    "homepage": "https://github.com/wimkumpen/algorithmia-php-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wim Kumpen",
+            "email": "info@wimkumpen.be",
+            "homepage": "http://www.wimkumpen.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Algorithmia\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Algorithmia\\Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+    },
+    "config": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
